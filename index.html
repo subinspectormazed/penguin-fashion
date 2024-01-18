@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="bg-amber-50 py-16 px-4 md:px-32">
+      <nav></nav>
+      <!-- banner section start -->
+      <section>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="space-y-3">
+            <h1 class="text-7xl uppercase font-bebas">
+              <span class="text-[#FABE4C]">Be the Penguins</span> <br />
+              of Winter
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="px-9 py-4 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white"
+            >
+              Buy Now
+            </button>
+          </div>
+          <div>
+            <img src="images/model.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- banner section end -->
+    </header>
+    <main class="max-w-7xl mx-auto">
+      <section class="py-12">
+        <h3 class="uppercase text-5xl font-bebas text-[#363958]">
+          WoMan Jacket
+        </h3>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
